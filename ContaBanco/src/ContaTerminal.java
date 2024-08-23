@@ -9,6 +9,7 @@ public class ContaTerminal {
         int numeroConta = 0;
         double saldo = 0;
         
+        @SuppressWarnings("resource")
 
         Scanner scan = new Scanner(System.in);
         
